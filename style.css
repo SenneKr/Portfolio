@@ -156,6 +156,10 @@ iframe {
   #profo {
     display: none;
   }
+
+  body {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-device-width: 480px) {
