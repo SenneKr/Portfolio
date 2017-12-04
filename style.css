@@ -1,14 +1,14 @@
 body {
   width: 65%;
   margin: auto;
-  background-image: url(Sources/background.jpg);
+  background-image: url(sources/background.jpg);
   background-size: 50%;
 }
 
 #portfolio {
   background-color: rgba(0,0,0,0.95);
   padding: 5%;
-  height: 2600px;
+  height: 2800px;
 }
 
 header {
@@ -45,6 +45,12 @@ p {
 }
 
 #profiel {
+  float: left;
+}
+
+#profo {
+  width: 130px;
+  margin-left: 10px;
   float: left;
 }
 
@@ -99,17 +105,6 @@ iframe {
   margin-bottom: 50px;
 }
 
-#ik {
-  width: 70%;
-  float: left;
-}
-
-#profo {
-  width: 25%;
-  float: left;
-  margin-right: 5%;
-}
-
 @media screen and (max-width: 1450px) {
   iframe {
     width: 100%;
@@ -117,7 +112,7 @@ iframe {
   }
 
   #portfolio {
-    height: 2950px;
+    height: 3200px;
   }
 }
 
@@ -134,8 +129,9 @@ iframe {
     height: 250px;
   }
 
-  #portfolio {
-    height: 8400px;
+  #profo {
+    width: 100px;
+    float: right;
   }
 
   h1 {
@@ -154,27 +150,10 @@ iframe {
     margin-bottom: 30px;
     width: 100%;
   }
-
-  #profo {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  #ik {
-    width: 100%;
-  }
 }
 
 @media screen and (max-width: 650px) {
-  body {
-    width: 100%;
-    background: black;
-  }
-}
-
-@media only screen and (max-device-width: 480px) {
-  body {
-    width: 100%;
-    background-color: black;
+  #profo {
+    display: none;
   }
 }
