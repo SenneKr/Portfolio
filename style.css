@@ -1,19 +1,18 @@
 body {
   width: 65%;
   margin: auto;
-  background-image: url(sources/background.jpg);
+  background-image: url(Sources/background.jpg);
   background-size: 50%;
 }
 
 #portfolio {
-  background-color: rgba(0,0,0,0.95);
+  background-color: rgba(250,250,250,0.98);
   padding: 5%;
-  height: 2800px;
+  overflow: hidden;
 }
 
 header {
   width: 100%;
-  margin-top: 25px;
   margin-bottom: 10px;
   padding-bottom: 25px;
   text-align: right;
@@ -35,7 +34,7 @@ h2 {
 }
 
 p {
-  color: white;
+  color: black;
   font-family: helvetica;
   font-size: 1.2em;
 }
@@ -45,12 +44,6 @@ p {
 }
 
 #profiel {
-  float: left;
-}
-
-#profo {
-  width: 130px;
-  margin-left: 10px;
   float: left;
 }
 
@@ -66,7 +59,7 @@ p {
   width: 60%;
   display: block;
   float: right;
-  border-top: 5px solid white;
+  border-top: 5px solid black;
   margin-bottom: 50px;
 }
 
@@ -110,10 +103,6 @@ iframe {
     width: 100%;
     height: 480px;
   }
-
-  #portfolio {
-    height: 3200px;
-  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -152,8 +141,74 @@ iframe {
   }
 }
 
-@media screen and (max-width: 650px) {
+#ik {
+  width: 70%;
+  float: left;
+}
+
+#profo {
+  width: 25%;
+  float: left;
+  margin-right: 5%;
+}
+
+@media screen and (max-width: 1450px) {
+  iframe {
+    width: 100%;
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  iframe {
+    width: 100%;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  iframe {
+    width: 100%;
+    height: 250px;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  #profiel h2 {
+    font-size: 2em;
+  }
+
+  #profiel p {
+    font-size: 1em;
+  }
+
+  .vak img {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
   #profo {
-    display: none;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #ik {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body {
+    width: 100%;
+    background: black;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+  body {
+    width: 100%;
+    background-color: black;
   }
 }
