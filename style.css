@@ -17,7 +17,7 @@ header {
   padding-bottom: 25px;
   text-align: right;
   float: right;
-  border-bottom: 5px solid #AB1A25;
+  border-bottom: 5px solid black;
 }
 
 h1 {
@@ -40,6 +40,7 @@ p {
 
 #student {
   margin-top: 10px;
+  color: #AB1A25;
 }
 
 #profiel {
@@ -58,7 +59,7 @@ p {
   width: 60%;
   display: block;
   float: right;
-  border-top: 5px solid black;
+  border-top: 5px solid #AB1A25;
   margin-bottom: 50px;
 }
 
