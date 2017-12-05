@@ -240,4 +240,8 @@ iframe {
   #ik {
     width: 100%;
   }
+
+  .vak img:hover {
+    transform: none;
+  }
 }
